@@ -1,12 +1,21 @@
 commands				Descriptions
-git remote set-url origin URL		set remote repo to URL
-git add .				add all files to git
-git status				displays change in all the files
-git stash				stashes(keeps aside) the changes makes ready for pull 						request
-git commit -m "msg"			commits with message m
-git branch				displays all branches
-git push origin master			pushes all unpushed commits to git remote repository to 					branch master
-git chechkout branch_d			switches branch to branch_d
-git reset HEAD~1			goes back to previous commti of last faulty commit. still 						keeps the files of faulty commit and git status shows the 						faulty files.
-git reset --hard HEAD~1			deletes last faulty commit. faulty commit can stil be 						resurrected by other commands within like 90days or so the 						say
+1. git remote set-url origin URL	set remote repo to URL
+
+2. git add .				add all files to git
+
+3. git status				displays change in all the files
+
+4. git stash				stashes(keeps aside) the changes makes ready for pull request
+
+5. git commit -m "msg"			commits with message m
+
+6. git branch				displays all branches
+
+7. git push origin master		pushes all unpushed commits to git remote repository to branch master
+
+8. git chechkout branch_d			switches branch to branch_d
+
+9. git reset HEAD~1			goes back to previous commti of last faulty commit. still keeps the files of faulty commit and git status shows the faulty files.
+
+10. git reset --hard HEAD~1		deletes last faulty commit. faulty commit can stil be resurrected by other commands within like 90days or so the say
 

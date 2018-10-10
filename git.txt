@@ -7,13 +7,13 @@ commands				Descriptions
 
 4. git stash				stashes(keeps aside) the changes makes ready for pull request
 
-5. git commit -m "msg"			commits with message m
+5. git commit -m "msg"			commits with message msg
 
 6. git branch				displays all branches
 
 7. git push origin master		pushes all unpushed commits to git remote repository to branch master
 
-8. git chechkout branch_d			switches branch to branch_d
+8. git chechkout branch_d		switches branch to branch_d
 
 9. git reset HEAD~1			goes back to previous commti of last faulty commit. still keeps the files of faulty commit and git status shows the faulty files.
 
